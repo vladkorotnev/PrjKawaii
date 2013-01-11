@@ -1,0 +1,12 @@
+C:\Documents and Settings\Oleg\My Documents\Visual Studio 2005\Projects\PrjKawaii\PrjKawaii\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Oleg\My Documents\Visual Studio 2005\Projects\PrjKawaii\PrjKawaii\obj\Debug\PrjKawaii.BooruPic.resources
+C:\Documents and Settings\Oleg\My Documents\Visual Studio 2005\Projects\PrjKawaii\PrjKawaii\obj\Debug\PrjKawaii.Form1.resources
+C:\Documents and Settings\Oleg\My Documents\Visual Studio 2005\Projects\PrjKawaii\PrjKawaii\obj\Debug\PrjKawaii.Resources.resources
+C:\Documents and Settings\Oleg\My Documents\Visual Studio 2005\Projects\PrjKawaii\PrjKawaii\obj\Debug\PrjKawaii.Viewer.resources
+C:\Documents and Settings\Oleg\My Documents\Visual Studio 2005\Projects\PrjKawaii\PrjKawaii\obj\Debug\PrjKawaii.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Oleg\My Documents\Visual Studio 2005\Projects\PrjKawaii\PrjKawaii\bin\Debug\PrjKawaii.exe
+C:\Documents and Settings\Oleg\My Documents\Visual Studio 2005\Projects\PrjKawaii\PrjKawaii\bin\Debug\PrjKawaii.pdb
+C:\Documents and Settings\Oleg\My Documents\Visual Studio 2005\Projects\PrjKawaii\PrjKawaii\bin\Debug\PrjKawaii.xml
+C:\Documents and Settings\Oleg\My Documents\Visual Studio 2005\Projects\PrjKawaii\PrjKawaii\obj\Debug\PrjKawaii.exe
+C:\Documents and Settings\Oleg\My Documents\Visual Studio 2005\Projects\PrjKawaii\PrjKawaii\obj\Debug\PrjKawaii.xml
+C:\Documents and Settings\Oleg\My Documents\Visual Studio 2005\Projects\PrjKawaii\PrjKawaii\obj\Debug\PrjKawaii.pdb
