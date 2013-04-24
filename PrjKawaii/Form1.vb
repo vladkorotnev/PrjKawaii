@@ -12,16 +12,26 @@ Public Class Form1
     Dim currentlyShownPosts As Integer = 0
     Dim isBoot As Boolean = True
     Function xmlUrlforBoard(ByVal nohttproot As String, ByVal tags As String, ByVal page As Integer)
-        Dim r = "http://" + nohttproot + "//index.php?page=dapi&s=post&q=index"
-        If tags <> "" Then
-            r = r + "&tags=" + Replace(tags, " ", "+")
-        End If
-        If page > 0 Then
-            r = r + "&pid=" + CStr(page)
+        Dim r = ""
+        If nohttproot.Contains("yande.re") Then
+            r = "http://" + nohttproot + "//post.xml?"
+            If tags <> "" Then
+                r = r + "&tags=" + Replace(tags, " ", "+")
+            End If
+            If page > 0 Then
+                r = r + "&page=" + CStr(page + 1)
+            End If
+        Else
+            r = "http://" + nohttproot + "//index.php?page=dapi&s=post&q=index"
+            If tags <> "" Then
+                r = r + "&tags=" + Replace(tags, " ", "+")
+            End If
+            If page > 0 Then
+                r = r + "&pid=" + CStr(page)
+            End If
         End If
         Return r
     End Function
-
     Sub getNextPg(Optional ByVal onBoot As Boolean = False)
 
         If currentlyShownPosts = totalPostsHere And Not onBoot Then Me.Button1.Enabled = False : Return
@@ -74,8 +84,8 @@ failed:
         srch.AutoCompleteCustomSource = MySource
 
         'Auto complete mode set to suggest append so that it will sugesst one
-        'or more suggested completion strings it has bith ‘Suggest’ and
-        '‘Append’ functionality
+        'or more suggested completion strings it has bith ï¿½Suggestï¿½ and
+        'ï¿½Appendï¿½ functionality
         srch.AutoCompleteMode = AutoCompleteMode.Suggest
 
         'Set to Custom source we have filled already
